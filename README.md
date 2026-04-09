@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# The Implementation Lane
 
-## Getting Started
+Professional website for The Implementation Lane — AI implementation consulting by Amanda Crawford.
 
-First, run the development server:
+**Live:** [theimplementationlane.com](https://theimplementationlane.com)
+
+## Stack
+
+- **Framework:** Next.js (App Router)
+- **Styling:** Tailwind CSS
+- **Hosting:** Vercel
+- **Content:** Static/SSG — no CMS, no database
+
+## Local Development
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Deployment
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This repo is connected to Vercel for automatic deployments.
 
-## Learn More
+1. Push to `main` — Vercel deploys automatically
+2. Preview deployments on pull requests
 
-To learn more about Next.js, take a look at the following resources:
+### DNS Configuration
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Root domain (`theimplementationlane.com`) → Vercel
+- `www` → Vercel
+- `newsletter` subdomain → Beehiiv (do not change)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Pages
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+| Route | Description |
+|-------|-------------|
+| `/` | Home — hero, stats, Lane Two positioning |
+| `/consulting` | Service areas, booking CTA |
+| `/about` | Amanda's practitioner story |
+| `/portfolio` | Four shipped projects |
+| `/newsletter` | Redirects to Beehiiv subscribe page |
+| `/subscribe` | Redirects to Beehiiv subscribe page |
