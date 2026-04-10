@@ -22,9 +22,9 @@ const projects = [
     title: "Custom MCP Server",
     category: "Engineering",
     oneLiner:
-      "Live sports odds API connected to Claude Desktop via MCP protocol.",
+      "Live sports odds API connected to Claude Cowork via MCP protocol.",
     description:
-      "Read the-odds-api.com V4 documentation. Scaffolded a TypeScript MCP server with six tools. Connected live to Claude Desktop pulling odds from 9+ US bookmakers across 92 sports. Built in a single afternoon between calls at work. No developer background.",
+      "Read the-odds-api.com V4 documentation. Scaffolded a TypeScript MCP server with six tools. Connected live to Claude Cowork pulling odds from 9+ US bookmakers across 92 sports. Built in a single afternoon between calls at work. No developer background.",
     tags: ["TypeScript", "MCP Protocol", "API Integration"],
     link: "https://github.com/axc9000/odds-api-mcp-server",
   },
