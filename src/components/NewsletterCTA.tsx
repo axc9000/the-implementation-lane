@@ -6,8 +6,8 @@ export function NewsletterCTA() {
           Get the newsletter
         </h2>
         <p className="text-gray-400 mb-8 max-w-lg mx-auto">
-          One implementation insight per week. No hype, no theory — just what
-          actually works when you ship AI in real organizations.
+          One implementation insight every other Tuesday. No hype, no theory —
+          just what actually works when you ship AI in real organizations.
         </p>
         <a
           href="https://newsletter.theimplementationlane.com/subscribe"
