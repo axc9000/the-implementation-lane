@@ -267,18 +267,17 @@ export default function Consulting() {
           <div className="space-y-4 text-gray-300 leading-relaxed">
             <p>
               I&apos;ve done this before, at scale, without a budget. I led a
-              knowledge-management overhaul at Mural: 14 months, 150+ employees,
+              knowledge-management overhaul at Mural Consulting: 14 months, 150+ employees,
               8 departments, $0 spend, 99% adoption. The tools were different;
               the adoption problem was identical.
             </p>
             <p>
               On the AI side: I built and run Content Loop, a production SaaS
-              content system that shipped 7 of 7 planned episodes and 41
-              published pieces. I&apos;ve shipped a custom MCP server, public on
+              content system: 7 of 7 podcast episodes processed, 41 content
+              pieces, zero failed runs. I&apos;ve shipped a custom MCP server, public on
               GitHub. I hold 4 Anthropic certifications. And I run my own
               business on the same methodology I audit against, documented in a
-              22-entry Implementation Lab Notebook you can read in the
-              newsletter.
+              23-entry Implementation Lab Notebook that feeds the newsletter.
             </p>
           </div>
         </div>
